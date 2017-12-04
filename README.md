@@ -54,3 +54,5 @@ Database Name: `wordpress`
 Database Username: `wordpress`
 
 Database Password: `wordpress`
+
+PhpMyAdmin URL: `http://project.local/phpmyadmin`
