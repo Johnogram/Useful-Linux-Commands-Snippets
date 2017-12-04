@@ -35,3 +35,22 @@ To update to the latest version
 ```sh
 sudo npm install npm@latest -g
 ```
+
+### GULP tasks using NPM
+To run gulp tasks using NPM
+```sh
+npm run *gulp task name*
+```
+e.g.
+```sh
+npm run build-dev
+```
+
+### Vagrant WordPress defaults
+Database Server: `localhost`
+
+Database Name: `wordpress`
+
+Database Username: `wordpress`
+
+Database Password: `wordpress`
