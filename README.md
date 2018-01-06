@@ -63,14 +63,24 @@ PhpMyAdmin URL: `http://project.local/phpmyadmin`
 ###### Bug in Homestead 7
 Getting Command: laravel not installed
 
-```vagrant ssh
+```sh
+vagrant ssh
+```
 
-```composer global require "laravel/installer"
+```sh
+composer global require "laravel/installer"
+```
 
-```echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
+```sh
+echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
+```
 
-```exit
+```sh
+exit
+```
 
-```vagrant ssh
+```sh
+vagrant ssh
+```
 
 laravel new will now work
