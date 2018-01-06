@@ -56,3 +56,21 @@ Database Username: `wordpress`
 Database Password: `wordpress`
 
 PhpMyAdmin URL: `http://project.local/phpmyadmin`
+
+### Homestead Resources
+[Quickstart Guide](https://scotch.io/tutorials/getting-started-with-laravel-homestead)
+
+###### Bug in Homestead 7
+Getting Command: laravel not installed
+
+```vagrant ssh
+
+```composer global require "laravel/installer"
+
+```echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
+
+```exit
+
+```vagrant ssh
+
+laravel new will now work
