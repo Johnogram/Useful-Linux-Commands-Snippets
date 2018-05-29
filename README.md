@@ -84,3 +84,9 @@ vagrant ssh
 ```
 
 laravel new will now work
+
+### RSync command for local editing and pushing to dev server
+
+```sh
+rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
+```
