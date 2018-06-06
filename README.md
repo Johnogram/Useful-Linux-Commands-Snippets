@@ -1,5 +1,19 @@
 # Ubuntu Guide
 
+### Ubuntu dist updates
+To update Ubuntu to a new major version, run:
+```sh
+sudo apt update && sudo apt dist-upgrade
+```
+Then:
+```sh
+do-release-upgrade
+```
+Once completed, re-enable 3rd part repos using this command:
+```sh
+for f in /etc/apt/sources.list.d/*.list; do sudo sed -i 's/**OLDNAME**/**NEWNAME**/g' $f; sudo sed -i 's/^# \(.*disabled on upgrade to.*\)/\1/g' $f;done
+```
+
 ### Ubuntu core updates
 To update core packages installed
 ```sh
