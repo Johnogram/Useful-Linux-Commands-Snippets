@@ -50,6 +50,12 @@ To update to the latest version
 sudo npm install npm@latest -g
 ```
 
+### RSync command for local editing and pushing to dev server
+
+```sh
+rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
+```
+
 ### GULP tasks using NPM
 To run gulp tasks using NPM
 ```sh
@@ -98,9 +104,3 @@ vagrant ssh
 ```
 
 laravel new will now work
-
-### RSync command for local editing and pushing to dev server
-
-```sh
-rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
-```
