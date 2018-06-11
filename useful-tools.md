@@ -5,6 +5,11 @@
 sudo apt-get install build-essential git
 ```
 
+### Composer
+```sh
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+```
+
 ### Databases
 ```sh
 # install nosql database
