@@ -56,6 +56,16 @@ sudo npm install npm@latest -g
 rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
 ```
 
+### Land changes to master using Phabricator Arcanist
+
+```
+arc land --onto master --keep-branch --squash --preview
+```
+then
+```
+arc land --onto master --keep-branch --squash
+```
+
 ### GULP tasks using NPM
 To run gulp tasks using NPM
 ```sh
