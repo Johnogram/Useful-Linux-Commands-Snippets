@@ -56,6 +56,14 @@ sudo npm install npm@latest -g
 rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
 ```
 
+### Set searchdomain on Ubuntu
+```sh
+nmcli c show # Copy the name of the connection you want to add the search suffixes
+nmcli c modify "LAN Connection X" ipv4.dns-search "domain.de,your.domain.de"
+sudo nmcli c down "LAN Connection X" && sudo nmcli c up "LAN Connection X"
+cat /etc/resolv.conf # Should now show your added suffixed
+```
+
 ### Land changes to master using Phabricator Arcanist
 
 ```
