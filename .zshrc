@@ -117,4 +117,5 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 
 # Aliases
 alias phpunit="./vendor/bin/phpunit --testdox"
-alias eapi="php -S 10.10.0.213:8080 -t public"
+alias eapi_run="php -S 10.10.0.213:8080 -t public"
+alias epay_sync="rsync -ruv --delete --exclude=*.bin/* /home/johnminns/Documents/code/epay_dev/ /media/shares/work/epay_dev/"
