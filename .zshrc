@@ -111,3 +111,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# PHPUnit/XDebug
+export XDEBUG_CONFIG="idekey=VSCODE"
+
