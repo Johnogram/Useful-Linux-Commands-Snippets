@@ -115,3 +115,6 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # PHPUnit/XDebug
 export XDEBUG_CONFIG="idekey=VSCODE"
 
+# Aliases
+alias phpunit="./vendor/bin/phpunit --testdox"
+alias eapi="php -S 10.10.0.213:8080 -t public"
