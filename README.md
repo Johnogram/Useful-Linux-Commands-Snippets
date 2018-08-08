@@ -64,7 +64,8 @@ sudo nmcli c down "LAN Connection X" && sudo nmcli c up "LAN Connection X"
 cat /etc/resolv.conf # Should now show your added suffixed
 ```
 
-### Land changes to master using Phabricator Arcanist
+### Build/Test Process
+#### Land changes to master using Phabricator Arcanist
 
 ```
 arc land --onto master --keep-branch --squash --preview
@@ -72,6 +73,19 @@ arc land --onto master --keep-branch --squash --preview
 then
 ```
 arc land --onto master --keep-branch --squash
+```
+
+#### Push changes to test for QA
+```
+git checkout test
+git pull origin test
+git cherry-pick {LANDED_COMMIT_HASH}
+git push origin test
+# now go to jenkins and deploy (once the build is finished)
+```
+In Jenkins:
+```
+Project (Test) > build number (ie. #41) > promotion status
 ```
 
 ### GULP tasks using NPM
