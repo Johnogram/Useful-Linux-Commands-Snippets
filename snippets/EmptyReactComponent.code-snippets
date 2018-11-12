@@ -1,0 +1,28 @@
+{
+	"reactES6Component": {
+		"prefix": "rcc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"class ${1:${TM_FILENAME_BASE}} extends React.Component {",
+			"",
+			"\t/**",
+     		"\t * Renders the component",
+    		"\t *",
+    		"\t * @return {ReactElement} The component",
+    		"\t */",
+			"\trender () {",
+			"\t\treturn (",
+			"\t\t\t<div>",
+			"\t\t\t\tComponent Created",
+			"\t\t\t</div>",
+			"\t\t);",
+			"\t}",
+			"",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE}};\n",
+		],
+		"description": "Creates a React component class with ES6 module system"
+	},
+}
