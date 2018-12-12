@@ -123,3 +123,5 @@ alias epay_sync_push="rsync -ruv --delete --exclude=*.bin/* /home/johnminns/Docu
 alias epay_sync_pull="rsync -ruv --delete --exclude=*.bin/* /media/shares/work/epay_dev/ /home/johnminns/Documents/code/epay_dev/"
 alias git_master_diff="git diff --name-status master"
 alias phan="./vendor/bin/phan"
+alias arc_land="arc land --onto master --keep-branch --squash"
+alias arc_land_preview="arc land --onto master --keep-branch --squash --preview"

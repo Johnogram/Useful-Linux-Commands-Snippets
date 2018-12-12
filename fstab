@@ -1,0 +1,21 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda5 during installation
+UUID=f9de509c-ff2b-40ca-b811-8e27372ea674 /               ext4    errors=remount-ro 0       1
+# /home was on /dev/sda6 during installation
+UUID=8d369a7a-f5ed-44ad-b3af-081aef63e8b0 /home           ext4    defaults        0       2
+# swap was on /dev/sda2 during installation
+UUID=67f20e54-44b3-4573-bf25-250a2befda4f none            swap    sw              0       0
+# storage drive
+UUID=d5e65d32-cca4-41c7-80c0-3dc762f4a5c0 /media/storage  ext4    defaults        0       2
+
+# Network shares
+//10.10.0.15/Data           /media/shares/work/Data         cifs    username=jm2,domain=DATAPLAN,password=@Tsunami#32!@Tsunami#32!,uid=1000,gid=1000,iocharset=utf8,noperm,nosetuids                     0       0
+//10.10.0.15/Intranet       /media/shares/work/Intranet     cifs    username=jm2,domain=DATAPLAN,password=@Tsunami#32!@Tsunami#32!,uid=1000,gid=1000,iocharset=utf8,noperm,nosetuids                     0       0
+//10.10.0.24/www-john       /media/shares/work/dev-web      cifs    username=jm2,domain=DATAPLAN,password=@Tsunami#32!@Tsunami#32!,uid=1000,gid=1000,iocharset=utf8,noperm,nosetuids,vers=1.0            0       0
+//10.10.0.23/jm2            /media/shares/work/epay_dev     cifs    username=jm2,domain=DATAPLAN,password=vQhMhU8WhcauwGbENhW9pbWKhkzpYBN9,uid=1000,gid=1000,iocharset=utf8,noperm,nosetuids,vers=1.0    0       0
