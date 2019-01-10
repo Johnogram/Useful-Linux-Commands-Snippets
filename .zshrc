@@ -7,7 +7,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME=agnoster
+#ZSH_THEME=avit
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -125,3 +126,4 @@ alias git_master_diff="git diff --name-status master"
 alias phan="./vendor/bin/phan"
 alias arc_land="arc land --onto master --keep-branch --squash"
 alias arc_land_preview="arc land --onto master --keep-branch --squash --preview"
+alias storybook="npm run-script storybook"
