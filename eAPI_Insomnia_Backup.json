@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2019-01-18T14:56:44.845Z",
+	"__export_date": "2019-01-18T15:26:12.021Z",
 	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
@@ -18,11 +18,11 @@
 			"color": null,
 			"created": 1478165681097,
 			"data": {
-				"api_key": "{% response 'body', 'req_c7fc3cc897ea4c82a34fb3274bc19ac9', '$.token' %}"
+				"api_key": "eyJpdiI6IlJOTEtHXC9nM1NGaXpTWmFqUHZhYlRnPT0iLCJ2YWx1ZSI6IlNzWGQyVllIckVSSFZVWjMxN0JUamxYSXp1UTRRYnhQTE9hOHhNYzN6NDBQUmFDVXNWWFdZeWZWbVwvWWI1SktoYjgwRjZXVmV5dnJ3VElYUXRCYk9oTUluQW5mSVwvM2pUMXA5ODJUWG9uTVIzTWZRdmwrQitjT3VRRFE0MkNKbmpiYlhKQXBzVEtiTWdBV1BYOXlxQ04xS0EzSmxRM2o4NmIzRkFVTkl1TkdwSzI3czBscXpKRmFuQ1QrelBjUSt6WWtZanJYaTF0ZWcyblNKWExBb29RMWtGTURsYndQV3dEaEpERWx1aGlGYnFKdG0rbzRrbDJGWVRkc1VkeE9YNnZtRGc5NlBZNjM5Z2xGV0JFckU4RmhaZnZpZDc1TWNOV1J4Mkp1eEkrZGUySW5tcWRVVWJzSmttdjUwTHBIaGtVQWpVbnkySWkrMVVSRlpBNlhnRHNBPT0iLCJtYWMiOiI4YmY1YjNmMGRhZjRkZDRkYTg4MjQwZTk2NTMwMzQyMTJmNzEwZDE5YTM0OTU4ZmNkMWZmOTc2ODcxNzVkOWYyIn0="
 			},
 			"isPrivate": false,
 			"metaSortKey": 1535974011750,
-			"modified": 1547820727369,
+			"modified": 1547825147779,
 			"name": "Base Environment",
 			"parentId": "wrk_0dca06d6bcb044baa88b52fd8540b307",
 			"_type": "environment"
@@ -35,7 +35,7 @@
 					"domain": ".localhost",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "805618178615056",
+					"id": "012460412548002564",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "e8b093725prs5lhu1nj49b0vs1"
@@ -46,7 +46,7 @@
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
 					"httpOnly": true,
-					"id": "9383362366798198",
+					"id": "675319838225938",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "24d6ke92tss587689qlklim5g5"
@@ -56,7 +56,7 @@
 					"domain": ".chris-dev-web",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "14337408201878654",
+					"id": "9906083698406065",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "2c3q0nvvesbnu3o68d8cb3ukc3"
@@ -66,7 +66,7 @@
 					"domain": ".127.0.0.1",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "5060263501448656",
+					"id": "41753481691812633",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "k19sv9fcb3j0gpope410b3jg43"
@@ -76,7 +76,7 @@
 					"domain": ".10.10.0.219",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "6570303172759144",
+					"id": "8757310781505352",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "us1a3v6qaucqd1ud39549gu2b7"
@@ -85,7 +85,7 @@
 					"creation": "2018-04-24T13:09:42.860Z",
 					"domain": "api-test.epayslips.co.uk",
 					"hostOnly": true,
-					"id": "8329175460583065",
+					"id": "24858194209437756",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-04-24T13:09:42.860Z",
 					"path": "/",
@@ -95,7 +95,7 @@
 					"creation": "2018-04-24T14:12:30.013Z",
 					"domain": "api-staging.epayslips.co.uk",
 					"hostOnly": true,
-					"id": "9347187520572873",
+					"id": "3993660204122229",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-04-24T14:12:30.013Z",
 					"path": "/",
@@ -105,7 +105,7 @@
 					"creation": "2018-06-06T15:02:19.234Z",
 					"domain": "10.10.2.118",
 					"hostOnly": true,
-					"id": "3288117236282557",
+					"id": "5264271959036788",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-06-06T15:02:19.234Z",
 					"path": "/",
@@ -115,7 +115,7 @@
 					"creation": "2018-07-27T13:34:21.291Z",
 					"domain": "10.10.0.213",
 					"hostOnly": true,
-					"id": "1692908738605483",
+					"id": "8075170939796332",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-07-27T13:34:21.291Z",
 					"path": "/",
@@ -124,11 +124,11 @@
 				{
 					"creation": "2018-08-02T13:00:58.985Z",
 					"domain": "10.10.0.213",
-					"expires": "2019-01-16T17:23:16.000Z",
+					"expires": "2019-01-18T16:25:30.000Z",
 					"hostOnly": true,
-					"id": "032033466527584764",
+					"id": "07198670770841487",
 					"key": "XDEBUG_SESSION",
-					"lastAccessed": "2019-01-16T16:23:18.942Z",
+					"lastAccessed": "2019-01-18T15:25:33.154Z",
 					"maxAge": 3600,
 					"path": "/",
 					"value": "VSCODE"
@@ -138,7 +138,7 @@
 					"domain": "jm2.epaysafe.co.uk",
 					"hostOnly": true,
 					"httpOnly": true,
-					"id": "2676408779884194",
+					"id": "17021142949146673",
 					"key": "emp",
 					"lastAccessed": "2018-09-13T13:11:11.239Z",
 					"path": "/",
@@ -150,7 +150,7 @@
 					"domain": "jm2-dev.epaysafe.co.uk",
 					"expires": "1970-01-01T00:00:01.000Z",
 					"hostOnly": true,
-					"id": "6987063312710631",
+					"id": "5581169631166321",
 					"key": "emp",
 					"lastAccessed": "2018-09-13T13:12:52.723Z",
 					"maxAge": 0,
@@ -159,7 +159,7 @@
 				}
 			],
 			"created": 1478185228233,
-			"modified": 1547655798943,
+			"modified": 1547825133159,
 			"name": "Default Jar",
 			"parentId": "wrk_0dca06d6bcb044baa88b52fd8540b307",
 			"_type": "cookie_jar"
@@ -431,12 +431,12 @@
 			"color": null,
 			"created": 1482942319037,
 			"data": {
-				"other_url": "http://chris-dev-web/epayslips-api/public",
-				"url": "http://10.10.0.219:8080"
+				"other_url": "http://127.0.0.1:3000",
+				"url": "http://10.10.0.213:8080"
 			},
 			"isPrivate": false,
 			"metaSortKey": 0,
-			"modified": 1542720476042,
+			"modified": 1547825128344,
 			"name": "local",
 			"parentId": "env_d50e8be2b7874473aaab365d0d53a5f0",
 			"_type": "environment"
