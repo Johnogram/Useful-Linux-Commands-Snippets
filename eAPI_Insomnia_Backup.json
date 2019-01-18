@@ -1,8 +1,8 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2018-12-19T14:02:39.792Z",
-	"__export_source": "insomnia.desktop.app:v6.3.1",
+	"__export_date": "2019-01-18T14:56:44.845Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
 			"_id": "wrk_0dca06d6bcb044baa88b52fd8540b307",
@@ -18,11 +18,11 @@
 			"color": null,
 			"created": 1478165681097,
 			"data": {
-				"api_key": "eyJpdiI6IjN5SXhnQ3phUjdBN0l4bXRSZWhSWEE9PSIsInZhbHVlIjoicGJjVG5xSjZxTEFKbmhhQUg5WmxVbzloN1U5MUpoaTROUGdpSnBFUWhoNEI0M2VLdjBMVjFydklJOVNzaGV5VU41OGI1RlhtcFNSRHIwaHUranJpTEd5K1wvVENwK2NKdDAwVnNMakNNSTlSc2M5UkFpSklJTDdYcjFxWjJ5VDdxZU1vYTNuREhQVlVFTlp6cVh0NnFmdGt3TFdia1BMampIT2JCaVdQMjhQdklWU1YyXC90Z3ZUTkV5RVFhRDFySzZWTjl5MXZnSmVzdUcreENhMzM1eXNaeTRZUTRVN0l0cGFSU3FTcGpmMVNQekhMMzFDNzlsbXhwZnZ6RnNsdmJTTE92UnN6M1JQXC9UbjBCbUZhNVwvWmJtMVBKZk5CaktwR3NITW1iejkzZzN6bFd5QmVaU2k3eDZtTERCcXJwVGZsSExMeFwvSlZqZjBYdmhKQkRYTHBnTkE9PSIsIm1hYyI6ImVlMjc0Y2RkOTBlODM5YjllN2RmMmJlZTk5ZGQ5ZDg4YWVmMzZhZWE4MGQwNjhkMjExYzE2NzNmMDY1MWU5M2IifQ=="
+				"api_key": "{% response 'body', 'req_c7fc3cc897ea4c82a34fb3274bc19ac9', '$.token' %}"
 			},
 			"isPrivate": false,
-			"metaSortKey": 1532685784731,
-			"modified": 1545227040844,
+			"metaSortKey": 1535974011750,
+			"modified": 1547820727369,
 			"name": "Base Environment",
 			"parentId": "wrk_0dca06d6bcb044baa88b52fd8540b307",
 			"_type": "environment"
@@ -35,7 +35,7 @@
 					"domain": ".localhost",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "7998087518362302",
+					"id": "805618178615056",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "e8b093725prs5lhu1nj49b0vs1"
@@ -46,7 +46,7 @@
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
 					"httpOnly": true,
-					"id": "5441290064300477",
+					"id": "9383362366798198",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "24d6ke92tss587689qlklim5g5"
@@ -56,7 +56,7 @@
 					"domain": ".chris-dev-web",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "5894717283020423",
+					"id": "14337408201878654",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "2c3q0nvvesbnu3o68d8cb3ukc3"
@@ -66,7 +66,7 @@
 					"domain": ".127.0.0.1",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "38715381846203",
+					"id": "5060263501448656",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "k19sv9fcb3j0gpope410b3jg43"
@@ -76,7 +76,7 @@
 					"domain": ".10.10.0.219",
 					"expires": "1970-01-01T00:00:00.000Z",
 					"hostOnly": true,
-					"id": "21254316819159036",
+					"id": "6570303172759144",
 					"key": "PHPSESSID",
 					"path": "/",
 					"value": "us1a3v6qaucqd1ud39549gu2b7"
@@ -85,7 +85,7 @@
 					"creation": "2018-04-24T13:09:42.860Z",
 					"domain": "api-test.epayslips.co.uk",
 					"hostOnly": true,
-					"id": "2013573802857609",
+					"id": "8329175460583065",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-04-24T13:09:42.860Z",
 					"path": "/",
@@ -95,7 +95,7 @@
 					"creation": "2018-04-24T14:12:30.013Z",
 					"domain": "api-staging.epayslips.co.uk",
 					"hostOnly": true,
-					"id": "38749462884980845",
+					"id": "9347187520572873",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-04-24T14:12:30.013Z",
 					"path": "/",
@@ -105,7 +105,7 @@
 					"creation": "2018-06-06T15:02:19.234Z",
 					"domain": "10.10.2.118",
 					"hostOnly": true,
-					"id": "6987754746136559",
+					"id": "3288117236282557",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-06-06T15:02:19.234Z",
 					"path": "/",
@@ -115,7 +115,7 @@
 					"creation": "2018-07-27T13:34:21.291Z",
 					"domain": "10.10.0.213",
 					"hostOnly": true,
-					"id": "18324215736964056",
+					"id": "1692908738605483",
 					"key": "PHPSESSID",
 					"lastAccessed": "2018-07-27T13:34:21.291Z",
 					"path": "/",
@@ -124,11 +124,11 @@
 				{
 					"creation": "2018-08-02T13:00:58.985Z",
 					"domain": "10.10.0.213",
-					"expires": "2018-12-19T14:43:49.000Z",
+					"expires": "2019-01-16T17:23:16.000Z",
 					"hostOnly": true,
-					"id": "4204225472373546",
+					"id": "032033466527584764",
 					"key": "XDEBUG_SESSION",
-					"lastAccessed": "2018-12-19T13:43:51.670Z",
+					"lastAccessed": "2019-01-16T16:23:18.942Z",
 					"maxAge": 3600,
 					"path": "/",
 					"value": "VSCODE"
@@ -138,7 +138,7 @@
 					"domain": "jm2.epaysafe.co.uk",
 					"hostOnly": true,
 					"httpOnly": true,
-					"id": "3302029476308104",
+					"id": "2676408779884194",
 					"key": "emp",
 					"lastAccessed": "2018-09-13T13:11:11.239Z",
 					"path": "/",
@@ -150,7 +150,7 @@
 					"domain": "jm2-dev.epaysafe.co.uk",
 					"expires": "1970-01-01T00:00:01.000Z",
 					"hostOnly": true,
-					"id": "6154895583921449",
+					"id": "6987063312710631",
 					"key": "emp",
 					"lastAccessed": "2018-09-13T13:12:52.723Z",
 					"maxAge": 0,
@@ -159,7 +159,7 @@
 				}
 			],
 			"created": 1478185228233,
-			"modified": 1545227031673,
+			"modified": 1547655798943,
 			"name": "Default Jar",
 			"parentId": "wrk_0dca06d6bcb044baa88b52fd8540b307",
 			"_type": "cookie_jar"
@@ -352,6 +352,17 @@
 			"_type": "request_group"
 		},
 		{
+			"_id": "fld_40e63c48b01d4558a050d940d59b2c91",
+			"created": 1538487698969,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1538487698969,
+			"modified": 1538487698969,
+			"name": "Flexipay Upload",
+			"parentId": "wrk_0dca06d6bcb044baa88b52fd8540b307",
+			"_type": "request_group"
+		},
+		{
 			"_id": "fld_d97b324301d14f27835ca55dcb196c51",
 			"created": 1543318178710,
 			"description": "",
@@ -409,8 +420,8 @@
 				"url": "https://api.epayslips.co.uk"
 			},
 			"isPrivate": false,
-			"metaSortKey": 1533639798045,
-			"modified": 1533639798624,
+			"metaSortKey": 1,
+			"modified": 1542295671259,
 			"name": "Live",
 			"parentId": "env_d50e8be2b7874473aaab365d0d53a5f0",
 			"_type": "environment"
@@ -420,12 +431,12 @@
 			"color": null,
 			"created": 1482942319037,
 			"data": {
-				"other_url": "http://127.0.0.1:3000",
-				"url": "http://10.10.0.213:8080"
+				"other_url": "http://chris-dev-web/epayslips-api/public",
+				"url": "http://10.10.0.219:8080"
 			},
 			"isPrivate": false,
-			"metaSortKey": 1532685783275,
-			"modified": 1545227035838,
+			"metaSortKey": 0,
+			"modified": 1542720476042,
 			"name": "local",
 			"parentId": "env_d50e8be2b7874473aaab365d0d53a5f0",
 			"_type": "environment"
@@ -438,8 +449,8 @@
 				"url": "https://api-test.epayslips.co.uk"
 			},
 			"isPrivate": false,
-			"metaSortKey": 1533639760468,
-			"modified": 1542205704518,
+			"metaSortKey": 2,
+			"modified": 1539865074950,
 			"name": "test",
 			"parentId": "env_d50e8be2b7874473aaab365d0d53a5f0",
 			"_type": "environment"
@@ -452,8 +463,8 @@
 				"url": "https://api-staging.epayslips.co.uk"
 			},
 			"isPrivate": false,
-			"metaSortKey": 1533639799046,
-			"modified": 1536765167614,
+			"metaSortKey": 3,
+			"modified": 1542119060982,
 			"name": "staging",
 			"parentId": "env_d50e8be2b7874473aaab365d0d53a5f0",
 			"_type": "environment"
@@ -483,7 +494,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185199189,
 			"method": "GET",
-			"modified": 1506525333683,
+			"modified": 1539165788475,
 			"name": "Legacy Config",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -501,22 +512,23 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"username\": \"aaron37\",\n\t\"password\": \"testtest\"\n}"
+				"text": "{\n\t\"username\": \"aabbott\",\n\t\"password\": \"fredfred\"\n}"
 			},
 			"created": 1478263891195,
 			"description": "",
 			"headers": [
 				{
+					"disabled": false,
 					"id": "pair_8d7f06951e6d4facbb1d821aa9a7cd1f",
 					"name": "Content-Type",
 					"value": "application/json"
 				}
 			],
 			"isPrivate": false,
-			"metaSortKey": -1478185199189,
+			"metaSortKey": -1492769266952,
 			"method": "POST",
-			"modified": 1537092696975,
-			"name": "auth/password (aabbott)",
+			"modified": 1547820822195,
+			"name": "auth/password",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
 			"settingDisableRenderRequestBody": false,
@@ -537,6 +549,7 @@
 			"headers": [
 				{
 					"disabled": false,
+					"id": "pair_7f928b4d7fa942cdbb5b7239c6943823",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				}
@@ -544,7 +557,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478878926366,
 			"method": "GET",
-			"modified": 1490969291034,
+			"modified": 1542189234981,
 			"name": "Auth Check",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -658,6 +671,7 @@
 			"headers": [
 				{
 					"disabled": false,
+					"id": "pair_20de008361c5473e8a22a3131d7d3d21",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				}
@@ -665,7 +679,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478878926365,
 			"method": "GET",
-			"modified": 1491320961932,
+			"modified": 1539593332733,
 			"name": "Auth epayslips permissions",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -703,7 +717,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478878926365,
 			"method": "POST",
-			"modified": 1534845968180,
+			"modified": 1539165782095,
 			"name": "Auth Activation",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -726,7 +740,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1492769266902,
 			"method": "GET",
-			"modified": 1542115097877,
+			"modified": 1493305710528,
 			"name": "Auth Forgot Pass Security Questions",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -763,7 +777,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1492431910334.5,
 			"method": "POST",
-			"modified": 1536747099529,
+			"modified": 1493115964826,
 			"name": "Auth Forgot Pass Verify Identity",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -800,7 +814,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1492263232050.75,
 			"method": "PATCH",
-			"modified": 1536747103963,
+			"modified": 1493115976730,
 			"name": "Auth Forgot Pass Update Password",
 			"parameters": [],
 			"parentId": "fld_9f9f4762a3cd415d8bb1893c7c96f129",
@@ -884,12 +898,10 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_2c9d5ab6d9eb4668b2ec0a5ad63b97af",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				},
 				{
-					"id": "pair_b865ae4792894a6aa5972c852e6c7726",
 					"name": "Content-Type",
 					"value": "application/json"
 				}
@@ -897,7 +909,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478250597269,
 			"method": "POST",
-			"modified": 1534846206568,
+			"modified": 1479811228689,
 			"name": "Reminder Add",
 			"parameters": [],
 			"parentId": "fld_4387afe19dcd4bc0badc0f2157643d1b",
@@ -954,7 +966,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185187150,
 			"method": "GET",
-			"modified": 1544630259208,
+			"modified": 1520526795739,
 			"name": "Payslips",
 			"parameters": [
 				{
@@ -975,7 +987,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{url}}/v1/payslips/1",
+			"url": "{{url}}/v1/payslips",
 			"_type": "request"
 		},
 		{
@@ -994,7 +1006,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185187149,
 			"method": "GET",
-			"modified": 1542724405929,
+			"modified": 1526310847921,
 			"name": "Payslip",
 			"parameters": [],
 			"parentId": "fld_7d9782cd6ccd453bbebf5b342a9461d7",
@@ -1004,7 +1016,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/payslip/75/pdf",
+			"url": "{{ url }}/v1/payslip/1/pdf",
 			"_type": "request"
 		},
 		{
@@ -1018,12 +1030,10 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_dd5fa386ed1848c8a744b5cb136e120c",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				},
 				{
-					"id": "pair_4c55f8691b924af7a50d3c62b4e9b51f",
 					"name": "Content-Type",
 					"value": "application/json"
 				}
@@ -1031,7 +1041,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185187148,
 			"method": "PATCH",
-			"modified": 1533559922605,
+			"modified": 1489503411658,
 			"name": "Payslip",
 			"parameters": [],
 			"parentId": "fld_7d9782cd6ccd453bbebf5b342a9461d7",
@@ -1052,7 +1062,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_5ffdeb6cfc424699bf101ed0870a60b5",
+					"id": "pair_d408345d39fb4d7b980e99dc2e8f0e67",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				}
@@ -1060,7 +1070,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185187150,
 			"method": "GET",
-			"modified": 1544527634715,
+			"modified": 1539261843270,
 			"name": "Payroll",
 			"parameters": [],
 			"parentId": "fld_db6454fc302244848c34da428979f5ab",
@@ -1070,7 +1080,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url  }}/v1/payroll/2",
+			"url": "http://localhost:8080/v1/payroll",
 			"_type": "request"
 		},
 		{
@@ -1081,7 +1091,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_11b5d317b7fc4d9297c4fb6746c14adf",
+					"id": "pair_a5799863968f4e03ba748f9a148edb35",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				}
@@ -1089,7 +1099,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478185187200,
 			"method": "GET",
-			"modified": 1544527623795,
+			"modified": 1540919592595,
 			"name": "Payrolls",
 			"parameters": [],
 			"parentId": "fld_db6454fc302244848c34da428979f5ab",
@@ -1099,7 +1109,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url  }}/v1/payrolls",
+			"url": "{{url}}/v1/payrolls",
 			"_type": "request"
 		},
 		{
@@ -1132,6 +1142,35 @@
 			"_type": "request"
 		},
 		{
+			"_id": "req_ef5865c890b64457b427792037194d60",
+			"authentication": {},
+			"body": {},
+			"created": 1538576477830,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5c720a7e276a4e85970f07f06e38e1fb",
+					"name": "X-Token",
+					"value": "{{ api_key }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1478185187149.5,
+			"method": "GET",
+			"modified": 1539261799135,
+			"name": "Periods",
+			"parameters": [],
+			"parentId": "fld_db6454fc302244848c34da428979f5ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ url  }}/v1/payroll/3/periods",
+			"_type": "request"
+		},
+		{
 			"_id": "req_e7bc57341bd6472da927a330b4ba9021",
 			"authentication": {},
 			"body": {},
@@ -1161,9 +1200,41 @@
 			"_type": "request"
 		},
 		{
-			"_id": "req_8e41f5754d1f4d3c8d592e4a998bbcb5",
+			"_id": "req_6e33530de2a34c649960792007a513fb",
 			"authentication": {},
 			"body": {},
+			"created": 1545910609969,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5ffdeb6cfc424699bf101ed0870a60b5",
+					"name": "X-Token",
+					"value": "{{ api_key }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1478185187149.125,
+			"method": "GET",
+			"modified": 1545910619877,
+			"name": "Payruns Range",
+			"parameters": [],
+			"parentId": "fld_db6454fc302244848c34da428979f5ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ url  }}/v1/payroll/2/payruns/range",
+			"_type": "request"
+		},
+		{
+			"_id": "req_8e41f5754d1f4d3c8d592e4a998bbcb5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"payroll_id\": 2\n}"
+			},
 			"created": 1478527484913,
 			"description": "",
 			"headers": [
@@ -1171,12 +1242,17 @@
 					"id": "pair_8278688d9a88424ca7504d5213db9dee",
 					"name": "x-token",
 					"value": "{{ api_key }}"
+				},
+				{
+					"id": "pair_67b6f204a4a4442681ca3c468e052b86",
+					"name": "Content-Type",
+					"value": "application/json"
 				}
 			],
 			"isPrivate": false,
 			"metaSortKey": -1478527484913,
 			"method": "GET",
-			"modified": 1544800941919,
+			"modified": 1540920094846,
 			"name": "Employees",
 			"parameters": [],
 			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
@@ -1186,7 +1262,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/employees?department_only=true",
+			"url": "{{ url }}/v1/employees?payroll_id=3",
 			"_type": "request"
 		},
 		{
@@ -1197,7 +1273,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_6c8cd22e32b24214bcdb13db1e293350",
+					"id": "pair_07b65995176441129108588216f9e8fc",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1205,7 +1281,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478600732807.5,
 			"method": "GET",
-			"modified": 1544800655845,
+			"modified": 1543337613283,
 			"name": "Employee",
 			"parameters": [],
 			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
@@ -1215,7 +1291,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/employee/53",
+			"url": "{{ url }}/v1/employee/160",
 			"_type": "request"
 		},
 		{
@@ -1223,18 +1299,16 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"email\": \"eileen.russell@development.epaysafe.co.uk\"\t\n}"
+				"text": "{\n\t\"email\": \"chrisb@dataplan.co.uk\"\t\n}"
 			},
 			"created": 1478603149175,
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_e76e3bad94fb4a239d65558dba498e89",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				},
 				{
-					"id": "pair_cc7a3b4a047a4fb59831f4460ec54514",
 					"name": "Content-Type",
 					"value": "application/json"
 				}
@@ -1242,7 +1316,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478603149175,
 			"method": "PUT",
-			"modified": 1544718760054,
+			"modified": 1479811172265,
 			"name": "Employee",
 			"parameters": [],
 			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
@@ -1252,7 +1326,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url  }}/v1/employee/2",
+			"url": "http://localhost:8080/v1/employee/1",
 			"_type": "request"
 		},
 		{
@@ -1263,7 +1337,6 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_d59b7f28d45d4978b292561fea83d9ee",
 					"name": "X-Token",
 					"value": "{{ api_key }}"
 				}
@@ -1271,7 +1344,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478527484863,
 			"method": "GET",
-			"modified": 1539614997569,
+			"modified": 1479811183658,
 			"name": "Working Time Pattern",
 			"parameters": [],
 			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
@@ -1292,7 +1365,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_d9a8f8574c084255b8ab07f0814b204d",
+					"id": "pair_071b9323826d4fa58938dde89af70122",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1300,7 +1373,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1478527484912,
 			"method": "GET",
-			"modified": 1545227021387,
+			"modified": 1540919577431,
 			"name": "Employees (Copy)",
 			"parameters": [],
 			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
@@ -1310,7 +1383,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/employees?payroll_id=1&include_leavers=true",
+			"url": "{{ url }}/v1/employees",
 			"_type": "request"
 		},
 		{
@@ -1377,6 +1450,80 @@
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
 			"url": "{{ url  }}/v1/employee/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e2315983116c4a77bac158d73f53327e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"employee_ids\": [105, 106, 107],\n\t\"method\": \"archive\"\n}"
+			},
+			"created": 1547549293923,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8278688d9a88424ca7504d5213db9dee",
+					"name": "x-token",
+					"value": "{{ api_key }}"
+				},
+				{
+					"id": "pair_f720cd72ad9344f78c3de135183bddf1",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1478527484887.5,
+			"method": "PUT",
+			"modified": 1547645526965,
+			"name": "Archive Employees (Bulk)",
+			"parameters": [],
+			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ url }}/v1/employees/bulk/archive",
+			"_type": "request"
+		},
+		{
+			"_id": "req_21a64257126e4cfbbde0a2f5b5e7cb0a",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"employee_ids\": [125, 136, 187]\n}"
+			},
+			"created": 1547549342325,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8278688d9a88424ca7504d5213db9dee",
+					"name": "x-token",
+					"value": "{{ api_key }}"
+				},
+				{
+					"id": "pair_721b5b5ea91b4037a7703065b922b6d0",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1478527484875.25,
+			"method": "PUT",
+			"modified": 1547655789059,
+			"name": "Reset Employees (Bulk)",
+			"parameters": [],
+			"parentId": "fld_984399547d2b476a8e9cd5e0ea73a075",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ url }}/v1/employees/bulk/reset",
 			"_type": "request"
 		},
 		{
@@ -1546,7 +1693,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_9195149b86cd4589b1f2f4e758bd1ed8",
+					"id": "pair_6ad2f49000b94091867a531c9aae70a9",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1554,7 +1701,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1486988817706,
 			"method": "GET",
-			"modified": 1542979101712,
+			"modified": 1538992295435,
 			"name": "Settings",
 			"parameters": [],
 			"parentId": "fld_0de3341989eb4aaa87ee8fb8ebf5e22a",
@@ -1578,12 +1725,12 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_d3923fbbbe2a494dacf0408a3ccf7d8f",
+					"id": "pair_756a458ef0f047d4b1f25f576f482ee6",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				},
 				{
-					"id": "pair_b01fcbb9c5984270865b8f5a5997f89f",
+					"id": "pair_8cc431695926464c86f6926c7b5664cd",
 					"name": "Content-Type",
 					"value": "application/json"
 				}
@@ -1591,7 +1738,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1486988817705,
 			"method": "PATCH",
-			"modified": 1536746645804,
+			"modified": 1538992294700,
 			"name": "Settings",
 			"parameters": [],
 			"parentId": "fld_0de3341989eb4aaa87ee8fb8ebf5e22a",
@@ -1614,7 +1761,6 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_fcf0c041d3e2441a91b93312652cb3ef",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1622,7 +1768,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1487065240445,
 			"method": "GET",
-			"modified": 1544630241333,
+			"modified": 1487065264337,
 			"name": "Security Questions",
 			"parameters": [],
 			"parentId": "fld_b41e6a2b69b0468e93872f3b69fd8282",
@@ -1645,15 +1791,14 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_ae83230a7b5b4a3fbc1bc3c06c9798dc",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
 			],
 			"isPrivate": false,
-			"metaSortKey": -1487065240444.75,
+			"metaSortKey": -1487065240444,
 			"method": "PATCH",
-			"modified": 1542734638746,
+			"modified": 1487090455714,
 			"name": "Security Questions",
 			"parameters": [],
 			"parentId": "fld_b41e6a2b69b0468e93872f3b69fd8282",
@@ -1949,7 +2094,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_8c1da927a9cb4a03947883aea389c8bb",
+					"id": "pair_56f12c4ab8c7449e80921fa19f9bdaf0",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1957,7 +2102,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1487764385290,
 			"method": "GET",
-			"modified": 1545227073666,
+			"modified": 1547481022786,
 			"name": "Documents",
 			"parameters": [],
 			"parentId": "fld_8eb40d21db3047679bb31cf65c29f182",
@@ -1967,7 +2112,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/documents/1",
+			"url": "{{ url }}/v1/documents",
 			"_type": "request"
 		},
 		{
@@ -1980,7 +2125,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_825d6cbd8ff04c18bd0826de2f049dcb",
+					"id": "pair_396e6a0242334fc7be3420f2e80db1eb",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -1988,7 +2133,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1487764385289,
 			"method": "GET",
-			"modified": 1545227067668,
+			"modified": 1543337139880,
 			"name": "Document Stats",
 			"parameters": [],
 			"parentId": "fld_8eb40d21db3047679bb31cf65c29f182",
@@ -2019,7 +2164,7 @@
 			"isPrivate": false,
 			"metaSortKey": 0,
 			"method": "GET",
-			"modified": 1543318273555,
+			"modified": 1491826284109,
 			"name": "File (personal)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2042,7 +2187,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_872ac756a4a846c59ef6d636102ba181",
+					"id": "pair_6c5ac20ccd8449e7a3c7144c006ff4f2",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2050,7 +2195,7 @@
 			"isPrivate": false,
 			"metaSortKey": 200,
 			"method": "GET",
-			"modified": 1544024740950,
+			"modified": 1543337134936,
 			"name": "File data (personal)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2060,7 +2205,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/file/personal/15/data",
+			"url": "{{ url }}/v1/file/personal/15/pdf_preview",
 			"_type": "request"
 		},
 		{
@@ -2073,7 +2218,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_8ed0955238c84a029822d3d9a0a9eef5",
+					"id": "pair_c4360911a41946008cf3ae27d2a69d43",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2081,7 +2226,7 @@
 			"isPrivate": false,
 			"metaSortKey": 100,
 			"method": "GET",
-			"modified": 1544095276916,
+			"modified": 1543337093754,
 			"name": "File (personalcompany)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2091,7 +2236,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/file/personalcompany/781",
+			"url": "{{ url }}/v1/file/personalcompany/53565",
 			"_type": "request"
 		},
 		{
@@ -2104,7 +2249,6 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_22b43d46cb7547af9269eef9e5567588",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2112,7 +2256,7 @@
 			"isPrivate": false,
 			"metaSortKey": 300,
 			"method": "GET",
-			"modified": 1544033199316,
+			"modified": 1491314130751,
 			"name": "File data (personalcompany)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2122,7 +2266,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/file/personalcompany/781/data",
+			"url": "{{ url }}/v1/file/email/34/data",
 			"_type": "request"
 		},
 		{
@@ -2135,7 +2279,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_499c79d075b74bfda1145f6b6e1c08fc",
+					"id": "pair_633c6c0e03044115aae724d83ca9e671",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2143,7 +2287,7 @@
 			"isPrivate": false,
 			"metaSortKey": 101,
 			"method": "GET",
-			"modified": 1539615011377,
+			"modified": 1543337597616,
 			"name": "File (company)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2166,7 +2310,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_d7c05677335c4e1498011bc24bbee7b2",
+					"id": "pair_82427f312d4547bf8d8ab3c352465d31",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2174,7 +2318,7 @@
 			"isPrivate": false,
 			"metaSortKey": 102,
 			"method": "GET",
-			"modified": 1543587101071,
+			"modified": 1543337090028,
 			"name": "File (email)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2197,6 +2341,7 @@
 			"description": "",
 			"headers": [
 				{
+					"id": "pair_bf26ae29a64146649fb8b9e7bcff2512",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2204,7 +2349,7 @@
 			"isPrivate": false,
 			"metaSortKey": 103,
 			"method": "GET",
-			"modified": 1490091071084,
+			"modified": 1543337092078,
 			"name": "File (bureau)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2235,7 +2380,7 @@
 			"isPrivate": false,
 			"metaSortKey": 350,
 			"method": "GET",
-			"modified": 1545227059724,
+			"modified": 1540919507058,
 			"name": "File Preview (personal)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2245,7 +2390,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/file/eP60/198273/pdf_preview",
+			"url": "{{ url }}/v1/file/eP60/2/pdf_preview",
 			"_type": "request"
 		},
 		{
@@ -2258,7 +2403,7 @@
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_7fbc14c40ee849e3bc0260c8db9ac333",
+					"id": "pair_bb529ec121954c949957fd1985820c7e",
 					"name": "x-token",
 					"value": "{{ api_key }}"
 				}
@@ -2266,7 +2411,7 @@
 			"isPrivate": false,
 			"metaSortKey": 101,
 			"method": "GET",
-			"modified": 1544105566030,
+			"modified": 1543337123713,
 			"name": "File (pension)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2297,7 +2442,7 @@
 			"isPrivate": false,
 			"metaSortKey": 101.5,
 			"method": "GET",
-			"modified": 1543585677004,
+			"modified": 1543337086845,
 			"name": "File (eP60)",
 			"parameters": [],
 			"parentId": "fld_298649356dd54b6798339902ea83d5e5",
@@ -2307,7 +2452,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/file/eP60/1681/data",
+			"url": "{{ url }}/v1/file/eP60/52971/pdf_preview",
 			"_type": "request"
 		},
 		{
@@ -2359,7 +2504,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1487764385289.5,
 			"method": "GET",
-			"modified": 1543341989115,
+			"modified": 1495208196304,
 			"name": "Legacy Messages",
 			"parameters": [],
 			"parentId": "fld_730a7936050c4f64bf17851df95b9fcb",
@@ -2390,7 +2535,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1487764385289.375,
 			"method": "GET",
-			"modified": 1543342019321,
+			"modified": 1495208205960,
 			"name": "Legacy Message",
 			"parameters": [],
 			"parentId": "fld_730a7936050c4f64bf17851df95b9fcb",
@@ -2400,7 +2545,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url }}/v1/legacy_message/1737",
+			"url": "{{ url }}/v1/legacy_message/224",
 			"_type": "request"
 		},
 		{
@@ -2474,7 +2619,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1514369075809,
 			"method": "GET",
-			"modified": 1515077073432,
+			"modified": 1538489344087,
 			"name": "Timesheet Periods",
 			"parameters": [],
 			"parentId": "fld_8d7d485da9bc4e7aab42de53dd9f56ce",
@@ -2503,7 +2648,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1511435740143,
 			"method": "GET",
-			"modified": 1536673941530,
+			"modified": 1538488536243,
 			"name": "Timesheet Period",
 			"parameters": [],
 			"parentId": "fld_8d7d485da9bc4e7aab42de53dd9f56ce",
@@ -2540,7 +2685,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1509969072310,
 			"method": "PATCH",
-			"modified": 1542132399232,
+			"modified": 1538489345906,
 			"name": "Timesheet Period",
 			"parameters": [],
 			"parentId": "fld_8d7d485da9bc4e7aab42de53dd9f56ce",
@@ -2616,7 +2761,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"username\": \"employee\",\n\t\"password\": \"qFZoHMBQ3MWk8tRQHi0J\"\n}"
+				"text": "{\n\t\"username\": \"patricia.thompson\",\n\t\"password\": \"qFZoHMBQ3MWk8tRQHi0J\"\n}"
 			},
 			"created": 1529939408576,
 			"description": "",
@@ -2630,7 +2775,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1529939267745,
 			"method": "POST",
-			"modified": 1543829840612,
+			"modified": 1547055256569,
 			"name": "auth/password (Employee)",
 			"parameters": [],
 			"parentId": "fld_b9d7e4ae67fe4b028b6de185a210109f",
@@ -2688,7 +2833,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1529939267651.25,
 			"method": "GET",
-			"modified": 1544717543726,
+			"modified": 1547472847820,
 			"name": "Payslips (Employee)",
 			"parameters": [
 				{
@@ -2699,12 +2844,7 @@
 				{
 					"id": "pair_b3be70ad5fbe4ac388565cd6ab07a558",
 					"name": "end_date",
-					"value": "2018-12-12"
-				},
-				{
-					"id": "pair_1f18a842b08245bea9c88e5bcb8fc91d",
-					"name": "employee",
-					"value": "81"
+					"value": "2028-12-12"
 				}
 			],
 			"parentId": "fld_b9d7e4ae67fe4b028b6de185a210109f",
@@ -2714,7 +2854,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{url}}/v1/employee/61/payslips",
+			"url": "{{url}}/v1/employee/105/payslips",
 			"_type": "request"
 		},
 		{
@@ -2838,7 +2978,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"username\": \"user\",\n\t\"password\": \"RQLOCd08efyqmbFfNDtq\",\n\t\"type\": \"employer\"\n}"
+				"text": "{\n\t\"username\": \"emc_user\",\n\t\"password\": \"RQLOCd08efyqmbFfNDtq\",\n\t\"type\": \"employer\"\n}"
 			},
 			"created": 1533639835655,
 			"description": "",
@@ -2852,7 +2992,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1529939267720,
 			"method": "POST",
-			"modified": 1545227041195,
+			"modified": 1547464576653,
 			"name": "auth/password (User)",
 			"parameters": [],
 			"parentId": "fld_b9d7e4ae67fe4b028b6de185a210109f",
@@ -2863,6 +3003,35 @@
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
 			"url": "{{ url }}/v1/auth/password",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fb71158aeb8d4d85b780436efad2764d",
+			"authentication": {},
+			"body": {},
+			"created": 1547465530198,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bc90828a279a4d8b85b870893f2512e8",
+					"name": "X-Token",
+					"value": "{{ api_key }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529939267643.4375,
+			"method": "GET",
+			"modified": 1547465555479,
+			"name": "Latest Payslip (Employee)",
+			"parameters": [],
+			"parentId": "fld_b9d7e4ae67fe4b028b6de185a210109f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{url}}/v1/employee/105/payslips/latest",
 			"_type": "request"
 		},
 		{
@@ -3056,6 +3225,80 @@
 			"_type": "request"
 		},
 		{
+			"_id": "req_58712d49f2ee4e5d8a888cfa1e2a1f82",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"periodid\": 23,\n\t\"data\": [\n\t\t{\n\t\t\t\"PAYNUM\": \"14157896\",\n\t\t\t\"TITLE\": \"MR\",\n\t\t\t\"INIT\": \"J\",\n\t\t\t\"FNAMES\": \"JOE\",\n\t\t\t\"GENDER\": \"M\",\n\t\t\t\"SURNAME\": \"BLOGGS\",\n\t\t\t\"DOB\": \"1980-01-31\",\n\t\t\t\"NINUM\": \"JB156789C\",\n\t\t\t\"ADDR1\": \"1A HOPE STREET\",\n\t\t\t\"ADDR2\": \"GLASGOW\",\n\t\t\t\"ADDR3\": \"\",\n\t\t\t\"ADDR4\": \"\",\n\t\t\t\"POSTCODE\": \"GL1 4NE\",\n\t\t\t\"STDATE\": \"2018-08-14\",\n\t\t\t\"JOBTITLE\": \"NIGHTMANAGER\",\n\t\t\t\"EMAILADDR\": \"J.BLOGGS@GMAIL.COM\",\n\t\t\t\"COSTC\": \"230\",\n\t\t\t\"ANNUAL\": 24000.00,\n\t\t\t\"STDSALARY\": 2000.00,\n\t\t\t\"PAYMETH\": \"B\",\n\t\t\t\"BDSORT\": \"564820\",\n\t\t\t\"BDACNO\": \"50185913\",\n\t\t\t\"BDACNM\": \"MR J BLOGGS\",\n\t\t\t\"EMPTYPE\": \"SALARIED\",\n\t\t\t\"LVDATE\": null,\n\t\t\t\"FUTLVR\": \"Y\"\n\n\t\t}\n\t]\n}"
+			},
+			"created": 1538487731210,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7ab97c1b053f4e2192337d7b8202cd24",
+					"name": "x-token",
+					"value": "{{ api_key  }}"
+				},
+				{
+					"id": "pair_d9f823a5cfae4464ab17a5eb842fe8d0",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1538487731210,
+			"method": "POST",
+			"modified": 1543336968434,
+			"name": "Starters / Leavers",
+			"parameters": [],
+			"parentId": "fld_40e63c48b01d4558a050d940d59b2c91",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{url}}/v1/flexipay_upload/starter_leaver_fixed",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6faed2c9738944f28a585fd3c6cc96f8",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"periodid\": 29, \"data\": [{\"PAYNUM\":\"1015\",\"JOBNUM\":\"1\",\"COSTC\":\"160\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":117.45,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":15,\"F308\":0,\"F400\":19.5,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1015\",\"JOBNUM\":\"2\",\"COSTC\":\"580\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":22.5,\"F400\":73.75,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1029\",\"JOBNUM\":\"1\",\"COSTC\":\"310\",\"BASRATE\":8.35,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":17.77,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":15.5,\"F400\":133,\"F500\":100,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1029\",\"JOBNUM\":\"2\",\"COSTC\":\"220\",\"BASRATE\":8.35,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":0,\"F400\":69.75,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"105\",\"JOBNUM\":\"1\",\"COSTC\":\"620\",\"BASRATE\":10.25,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":5.13,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":0,\"F400\":171,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1057\",\"JOBNUM\":\"1\",\"COSTC\":\"220\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":11.75,\"F1296\":371.93,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":47.5,\"F308\":44.25,\"F400\":95.25,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"107\",\"JOBNUM\":\"1\",\"COSTC\":\"120\",\"BASRATE\":9.43,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":0,\"F400\":0,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":1634.53},{\"PAYNUM\":\"1138\",\"JOBNUM\":\"1\",\"COSTC\":\"160\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":9.78999999999999881,\"F1296\":104.37,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":13.33,\"F308\":38.170000000000006,\"F400\":63.5,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1144\",\"JOBNUM\":\"1\",\"COSTC\":\"582\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":-3.92,\"F1296\":0,\"F135\":17.75,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":0,\"F400\":0,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1148\",\"JOBNUM\":\"1\",\"COSTC\":\"220\",\"BASRATE\":8.35,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":-17.52,\"F1296\":66.8,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":8,\"F308\":0,\"F400\":167.75,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"115\",\"JOBNUM\":\"1\",\"COSTC\":\"800\",\"BASRATE\":9.26999999999999881,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":0,\"F400\":0,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":1608.33},{\"PAYNUM\":\"1195\",\"JOBNUM\":\"1\",\"COSTC\":\"220\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":-30.21,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":70,\"F400\":111.75,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1195\",\"JOBNUM\":\"2\",\"COSTC\":\"230\",\"BASRATE\":7.83,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":0,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":0,\"F308\":12.75,\"F400\":6.5,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0},{\"PAYNUM\":\"1207\",\"JOBNUM\":\"1\",\"COSTC\":\"160\",\"BASRATE\":8,\"F1028\":0,\"F1132\":0,\"F1204\":0,\"F1287\":0,\"F1296\":64,\"F135\":0,\"F1386\":0,\"F1417\":0,\"F296\":27.5,\"F308\":0,\"F400\":172.92,\"F500\":0,\"F505\":0,\"F506\":0,\"F520\":0}]}\n"
+			},
+			"created": 1539077893559,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7ab97c1b053f4e2192337d7b8202cd24",
+					"name": "x-token",
+					"value": "{{ api_key  }}"
+				},
+				{
+					"id": "pair_d9f823a5cfae4464ab17a5eb842fe8d0",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1536711597000.5,
+			"method": "POST",
+			"modified": 1542119098275,
+			"name": "Paydata",
+			"parameters": [],
+			"parentId": "fld_40e63c48b01d4558a050d940d59b2c91",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{url}}/v1/flexipay_upload/paydata",
+			"_type": "request"
+		},
+		{
 			"_id": "req_cba7031592214a89b5bffe7e89adda97",
 			"authentication": {},
 			"body": {},
@@ -3134,7 +3377,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1543318529388,
 			"method": "GET",
-			"modified": 1544107985863,
+			"modified": 1545229447650,
 			"name": "Get all of type",
 			"parameters": [],
 			"parentId": "fld_d97b324301d14f27835ca55dcb196c51",
@@ -3144,7 +3387,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ url  }}/v1/documents/1/pension",
+			"url": "{{ url  }}/v1/documents/1/P11d",
 			"_type": "request"
 		}
 	]
