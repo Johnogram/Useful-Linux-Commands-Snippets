@@ -34,7 +34,11 @@ ZSH_THEME=agnoster
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
+function precmd () {
+  window_title="\033]0;${PWD##*/}\007"
+  echo -ne "$window_title"
+}
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -127,3 +131,4 @@ alias phan="./vendor/bin/phan"
 alias arc_land="arc land --onto master --keep-branch --squash"
 alias arc_land_preview="arc land --onto master --keep-branch --squash --preview"
 alias storybook="npm run-script storybook"
+alias payroll_hub_sync_push="rsync -ruv --delete --exclude=*.bin/* /home/johnminns/Documents/code/payroll-hub/ /media/shares/work/dev-web/payroll-hub/"
