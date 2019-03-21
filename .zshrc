@@ -117,6 +117,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
+# Arcanist
+export PATH="$PATH:$HOME/arcanist/arcanist/bin"
+
 # PHPUnit/XDebug
 export XDEBUG_CONFIG="idekey=VSCODE"
 
