@@ -5,6 +5,8 @@ If VS Code is running slowly after an update, possibly GPU issue, run the app wi
 `--use-gl=osmesa --disable-gl-drawing-for-tests`
 Issue raised here: https://github.com/Microsoft/vscode/issues/70955
 
+Same can be achieved with `code --disable-gpu`
+
 ### Ubuntu dist updates
 To update Ubuntu to a new major version, run:
 ```sh
