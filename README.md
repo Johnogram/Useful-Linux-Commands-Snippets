@@ -7,6 +7,8 @@ Issue raised here: https://github.com/Microsoft/vscode/issues/70955
 
 Same can be achieved with `code --disable-gpu`
 
+The shortcut launcher can be edited here: `/usr/share/applications/code.desktop`
+
 ### Ubuntu dist updates
 To update Ubuntu to a new major version, run:
 ```sh
