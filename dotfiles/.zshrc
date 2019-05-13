@@ -114,11 +114,28 @@ source $ZSH/oh-my-zsh.sh
 source ~/.rvm/scripts/rvm
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Gradle
+export PATH="$PATH:$HOME/.gradle/gradle-5.4.1/bin"
+
+# JRE
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+#export JAVA_HOME="/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Arcanist
 export PATH="$PATH:$HOME/arcanist/arcanist/bin"
+
+# Android Studio
+export PATH="$PATH:$HOME/android-studio/bin"
+export ANDROID_SDK_ROOT="$HOME/Android/sdk"
+ # avdmanager, sdkmanager
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
+# adb, logcat
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
+# emulator
+export PATH="$PATH:$ANDROID_SDK_ROOT/emulator"
 
 # PHPUnit/XDebug
 export XDEBUG_CONFIG="idekey=VSCODE"
@@ -126,7 +143,7 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 # Aliases
 alias phpunit="./vendor/bin/phpunit --testdox"
 alias phpunit_simple="./vendor/bin/phpunit"
-alias eapi_run="php -S 10.10.0.213:8080 -t public"
+alias eapi_run="php -S 10.10.0.213:1616 -t public"
 alias epay_sync_push="rsync -ruv --delete --exclude '*.bin/*' /home/johnminns/Documents/code/epay_dev/ /media/shares/work/epay_dev/"
 alias epay_sync_pull="rsync -ruv --delete --exclude '*.bin/*' /media/shares/work/epay_dev/ /home/johnminns/Documents/code/epay_dev/"
 alias git_master_diff="git diff --name-status master"
