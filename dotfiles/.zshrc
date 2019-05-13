@@ -128,8 +128,9 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH="$PATH:$HOME/arcanist/arcanist/bin"
 
 # Android Studio
-export PATH="$PATH:$HOME/android-studio/bin"
+export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_SDK_ROOT="$HOME/Android/sdk"
+export PATH="$PATH:$HOME/android-studio/bin"
  # avdmanager, sdkmanager
 export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
 # adb, logcat
