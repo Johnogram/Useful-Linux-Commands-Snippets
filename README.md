@@ -33,6 +33,19 @@ then
 sudo apt upgrade
 ```
 
+### IONIC App
+The best way to run the ePaysafe Legacy app on dev machine
+
+Browser:
+```
+ionic cordova run browser
+```
+
+Android:
+```
+ionic cordova run android
+```
+
 ### Node.js (using NVM)
 To find the latest version - [here](https://nodejs.org/en/)
 
