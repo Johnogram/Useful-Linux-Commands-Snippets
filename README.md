@@ -43,7 +43,12 @@ ionic cordova run browser
 
 Android:
 ```
-ionic cordova run android
+ionic cordova run android -lcs
+```
+
+If Cordova unavailable in livereload, edit file node_modules/@ionic/app-scripts/dist/dev-server/serve-config.js and change last line to:
+```
+exports.ANDROID_PLATFORM_PATH = path.join('platforms', 'android', 'app/src/main', 'assets', 'www');
 ```
 
 ### Node.js (using NVM)
