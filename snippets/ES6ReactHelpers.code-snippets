@@ -1,0 +1,71 @@
+{
+	"reactES6Component": {
+		"prefix": "rcc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"class ${1:${TM_FILENAME_BASE}} extends React.Component {",
+			"",
+			"\t/**",
+     		"\t * Renders the component",
+    		"\t *",
+    		"\t * @return {ReactElement} The component",
+    		"\t */",
+			"\trender () {",
+			"\t\treturn (",
+			"\t\t\t<div>",
+			"\t\t\t\tComponent Created",
+			"\t\t\t</div>",
+			"\t\t);",
+			"\t}",
+			"",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE}};\n",
+		],
+		"description": "Creates a React component class with ES6 module system"
+	},
+	"reactES6Constructor": {
+		"prefix": "rcon",
+		"body": [
+			"/**",
+    		"* Creates an instance of the component",
+     		"*",
+     		"* @param {object} props Component properties",
+     		"*/",
+	 		"constructor (props) {",
+			"\tsuper(props);",
+			"",
+			"\t$0",
+    		"}\n"
+		],
+		"description": "Creates a constructor method with doc block"
+	},
+	"reactES6ComponentDidMount": {
+		"prefix": "rcdm",
+		"body": [
+			"/**",
+			"* Called just after the component is added to the DOM",
+			"*",
+			"* @return {void}",
+			"*/",
+			"componentDidMount () {",
+			"\t$0",
+			"}\n"
+		],
+		"description": "Creates a componentDidMount lifecycle member"
+	},
+	"reactES6PropTypeDefinition": {
+		"prefix": "rptd",
+		"body": [
+			"static propTypes = {",
+			"\t$1",
+			"};",
+			"",
+			"static defaultProps = {",
+			"\t$2",
+			"}"
+		],
+		"description": "Creates definition members for prop types"
+	}
+}
