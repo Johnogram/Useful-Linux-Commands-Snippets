@@ -1,0 +1,19 @@
+pane	0	1	:Main	1	:*	1	:/home/johnminns	1	zsh	:
+pane	1	1	:Main	1	:*	1	:/home/johnminns	0	nodejs	:/usr/bin/nodejs /home/johnminns/.nvm/versions/node/v10.16.0/bin/vtop
+pane	1	1	:Main	1	:*	2	:/home/johnminns/Documents/code/epayslips-api	0	php	:php -S 10.10.0.213:1616 -t public
+pane	1	1	:Main	1	:*	3	:/home/johnminns/Documents/code/emc-frontend	0	zsh	:
+pane	1	1	:Main	1	:*	4	:/home/johnminns/Documents/code/epay_dev	1	zsh	:
+pane	1	1	:Main	1	:*	5	:/home/johnminns/Documents/code/epayslips	0	zsh	:
+pane	1	1	:Main	1	:*	6	:/home/johnminns	0	zsh	:
+pane	1	1	:Main	1	:*	7	:/home/johnminns/Documents/code/react-components	0	zsh	:
+pane	1	2	:API Tests	0	:#	1	:/home/johnminns/Documents/code/epayslips-api	1	zsh	:
+pane	1	3	:ELA	0	:#	1	:/home/johnminns/Documents/code/ela/epayslips-legacy	1	zsh	:
+pane	1	4	:EMC Extended	0	:-	1	:/home/johnminns/Documents/code/emc-frontend	1	zsh	:
+pane	2	1	:API Tests	1	:*	1	:/home/johnminns	1	zsh	:
+window	0	1	1	:*	babe,118x81,0,0,1
+window	1	1	1	:*	da10,197x120,0,0[197x28,0,0,2,197x31,0,29{98x31,0,29,3,98x31,99,29,4},197x32,0,61{98x32,0,61,5,98x32,99,61,6},197x26,0,94{98x26,0,94,7,98x26,99,94,8}]
+window	1	2	0	:#	bac6,118x81,0,0,9
+window	1	3	0	:#	5d8f,118x81,0,0,10
+window	1	4	0	:-	44d8,197x120,0,0,11
+window	2	1	1	:*	5d91,118x81,0,0,12
+state	1	0
