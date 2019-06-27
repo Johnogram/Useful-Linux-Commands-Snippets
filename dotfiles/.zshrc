@@ -118,8 +118,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:$HOME/.gradle/gradle-5.4.1/bin"
 
 # JRE
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
-#export JAVA_HOME="/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
@@ -128,15 +128,18 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH="$PATH:$HOME/arcanist/arcanist/bin"
 
 # Android Studio
+export PATH="$PATH:$HOME/android-studio/bin"
+
+# Android Emulator
 export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_SDK_ROOT="$HOME/Android/sdk"
-export PATH="$PATH:$HOME/android-studio/bin"
- # avdmanager, sdkmanager
-export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
-# adb, logcat
-export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
+
 # emulator
-export PATH="$PATH:$ANDROID_SDK_ROOT/emulator"
+export PATH="$PATH:$ANDROID_HOME/emulator"
+ # avdmanager, sdkmanager
+export PATH="$PATH:$ANDROID_HOME/tools"
+# adb, logcat
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # PHPUnit/XDebug
 export XDEBUG_CONFIG="idekey=VSCODE"
@@ -144,6 +147,7 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 # Aliases
 alias phpunit="./vendor/bin/phpunit --testdox"
 alias phpunit_simple="./vendor/bin/phpunit"
+alias phpunit_simple_no_coverage="./vendor/bin/phpunit --no-coverage"
 alias eapi_run="php -S 10.10.0.213:1616 -t public"
 alias epay_sync_push="rsync -ruv --delete --exclude '*.bin/*' /home/johnminns/Documents/code/epay_dev/ /media/shares/work/epay_dev/"
 alias epay_sync_pull="rsync -ruv --delete --exclude '*.bin/*' /media/shares/work/epay_dev/ /home/johnminns/Documents/code/epay_dev/"
