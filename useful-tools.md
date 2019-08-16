@@ -1,5 +1,10 @@
 # Useful tools for fresh install
 
+- VTop(https://github.com/MrRio/vtop)
+- TLDR(https://tldr.sh/)
+
+
+
 ### Standard Developer Tools
 ```sh
 sudo apt-get install build-essential git
