@@ -1,9 +1,10 @@
 # Useful tools for fresh install
 
-- VTop(https://github.com/MrRio/vtop)
-- TLDR(https://tldr.sh/)
-
-
+- [VTop](https://github.com/MrRio/vtop)
+- [TLDR](https://tldr.sh/)
+- [OhMyZSH](https://ohmyz.sh/)
+- [Tmux](https://github.com/tmux/tmux)
+- [Tmux TPM](https://github.com/tmux-plugins/tpm)
 
 ### Standard Developer Tools
 ```sh
