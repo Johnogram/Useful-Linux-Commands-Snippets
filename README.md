@@ -2,11 +2,10 @@
 
 ### VS Code performance issues
 If VS Code is running slowly after an update, possibly GPU issue, run the app with the following flags:
-`--use-gl=osmesa --disable-gl-drawing-for-tests`
+```
+--disable-gpu --use-gl=osmesa --disable-gl-drawing-for-tests
+```
 Issue raised here: https://github.com/Microsoft/vscode/issues/70955
-
-Same can be achieved with `code --disable-gpu`
-
 The shortcut launcher can be edited here: `/usr/share/applications/code.desktop`
 
 ### Ubuntu dist updates
