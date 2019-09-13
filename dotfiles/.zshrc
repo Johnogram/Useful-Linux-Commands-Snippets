@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/johnminns/.oh-my-zsh
+  export ZSH=/home/johnogram/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -110,52 +110,21 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-source ~/.rvm/scripts/rvm
-export PATH="$PATH:$HOME/.rvm/bin"
-
-# Gradle
-export PATH="$PATH:$HOME/.gradle/gradle-5.4.1/bin"
-
-# JRE
-#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
-export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
-
-# Composer
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-
-# Arcanist
-export PATH="$PATH:$HOME/arcanist/arcanist/bin"
-
-# Android Studio
-export PATH="$PATH:$HOME/android-studio/bin"
-
-# Android Emulator
-export ANDROID_HOME="$HOME/Android/Sdk"
-export ANDROID_SDK_ROOT="$HOME/Android/sdk"
-
-# emulator
-export PATH="$PATH:$ANDROID_HOME/emulator"
- # avdmanager, sdkmanager
-export PATH="$PATH:$ANDROID_HOME/tools"
-# adb, logcat
-export PATH="$PATH:$ANDROID_HOME/platform-tools"
-
 # PHPUnit/XDebug
 export XDEBUG_CONFIG="idekey=VSCODE"
 
+# Editors
+export VISUAL=vim
+export EDITOR=vim
+export GIT_EDITOR=vim
+
 # Aliases
-alias phpunit="./vendor/bin/phpunit --testdox"
-alias phpunit_simple="./vendor/bin/phpunit"
-alias phpunit_simple_no_coverage="./vendor/bin/phpunit --no-coverage"
-alias eapi_run="php -S 10.10.0.213:1616 -t public"
-alias epay_sync_push="rsync -ruv --delete --exclude '*.bin/*' /home/johnminns/Documents/code/epay_dev/ /media/shares/work/epay_dev/"
-alias epay_sync_pull="rsync -ruv --delete --exclude '*.bin/*' /media/shares/work/epay_dev/ /home/johnminns/Documents/code/epay_dev/"
 alias git_master_diff="git diff --name-status master"
-alias phan="./vendor/bin/phan"
-alias arc_land="arc land --onto master --keep-branch --squash"
-alias arc_land_preview="arc land --onto master --keep-branch --squash --preview"
-alias storybook="npm run-script storybook"
-alias payroll_hub_sync_push="rsync -ruv --delete --exclude '*.bin/*' /home/johnminns/Documents/code/payroll-hub/ /media/shares/work/dev-web/payroll-hub/"
-alias epay_docker_up="source /home/johnminns/Documents/scripts/EpayDocker.sh"
-alias epay_docker_down="docker stop epaysafe-test-db; docker stop epaysafe-test-web"
+fpath=($fpath "/home/johnogram/.zfunctions")
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
+
+# PHPCS
+export PATH=/home/johnogram/.composer/vendor/bin:$PATH
