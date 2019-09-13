@@ -32,24 +32,6 @@ then
 sudo apt upgrade
 ```
 
-### IONIC App
-The best way to run the ePaysafe Legacy app on dev machine
-
-Browser:
-```
-ionic cordova run browser
-```
-
-Android:
-```
-ionic cordova run android -lcs
-```
-
-If Cordova unavailable in livereload, edit file node_modules/@ionic/app-scripts/dist/dev-server/serve-config.js and change last line to:
-```
-exports.ANDROID_PLATFORM_PATH = path.join('platforms', 'android', 'app/src/main', 'assets', 'www');
-```
-
 ### Node.js (using NVM)
 To find the latest version - [here](https://nodejs.org/en/)
 
@@ -76,52 +58,12 @@ To update to the latest version
 sudo npm install npm@latest -g
 ```
 
-### RSync command for local editing and pushing to dev server
-
-```sh
-rsync -ruv --delete --exclude=*.bin/* /path/from/ /path/to/
-```
-
 ### Set searchdomain on Ubuntu
 ```sh
 nmcli c show # Copy the name of the connection you want to add the search suffixes
 nmcli c modify "LAN Connection X" ipv4.dns-search "domain.de,your.domain.de"
 sudo nmcli c down "LAN Connection X" && sudo nmcli c up "LAN Connection X"
 cat /etc/resolv.conf # Should now show your added suffixed
-```
-
-### Build/Test Process
-#### Land changes to master using Phabricator Arcanist
-
-```
-arc land --onto master --keep-branch --squash --preview
-```
-then
-```
-arc land --onto master --keep-branch --squash
-```
-
-#### Push changes to test for QA
-```
-git checkout test
-git pull origin test
-git cherry-pick {LANDED_COMMIT_HASH}
-git push origin test
-# now go to jenkins and deploy (once the build is finished)
-```
-In Jenkins:
-```
-Project (Test) > build number (ie. #41) > promotion status
-```
-
-### GULP tasks using NPM
-To run gulp tasks using NPM
-```sh
-npm run *gulp task name*
-```
-e.g.
-```sh
-npm run build-dev
 ```
 
 ### Vagrant WordPress defaults
