@@ -5,15 +5,28 @@
 - [OhMyZSH](https://ohmyz.sh/)
 - [Tmux](https://github.com/tmux/tmux)
 - [Tmux TPM](https://github.com/tmux-plugins/tpm)
+- [Vim Plug](https://github.com/junegunn/vim-plug)
+- [Vim CoC](https://github.com/neoclide/coc.nvim)
 
 ### Standard Developer Tools
 ```sh
-sudo apt-get install build-essential git
+sudo apt-get install build-essential git curl
 ```
 
 ### Composer
 ```sh
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+```
+
+## NVM
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+
+### JRE
+```sh
+# install jdk
+sudo apt install openjdk-8-jdk
 ```
 
 ### Databases
@@ -45,10 +58,4 @@ rbenv install 2.3.0
 rbenv global 2.3.0
 # install some gems
 gem install bundler jekyll mysql2 rails jekyll-pagedown
-```
-
-### JRE
-```sh
-# install jdk
-sudo apt install openjdk-8-jdk
 ```
