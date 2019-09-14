@@ -1,5 +1,6 @@
 # Useful tools for fresh install
 
+- [VSCode](https://code.visualstudio.com)
 - [VTop](https://github.com/MrRio/vtop)
 - [TLDR](https://tldr.sh/)
 - [OhMyZSH](https://ohmyz.sh/)
@@ -10,7 +11,20 @@
 
 ### Standard Developer Tools
 ```sh
-sudo apt-get install build-essential git curl
+sudo apt install build-essential git curl
+```
+
+#### Useful packages
+```sh
+sudo apt install autoconf automake pkg-config
+```
+
+### Gnome Tweak Tools
+```sh
+sudo apt install gnome-tweak-tool
+
+# Create Theme and Icon directory
+mkdir ~/.icons ~/.themes
 ```
 
 ### Composer
@@ -18,9 +32,33 @@ sudo apt-get install build-essential git curl
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
-## NVM
+### NVM
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+
+### ZSH
+```sh
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+### Tmux
+```sh
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure && make
+```
+
+### Vim
+```sh
+sudo apt install vim
+```
+
+### PHP
+```sh
+TODO
 ```
 
 ### JRE
@@ -42,7 +80,7 @@ sudo apt install mysql-server libmysqlclient-dev
 ### Ruby
 ```sh
 # install pre requisites
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+sudo apt install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 
 # clone rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
