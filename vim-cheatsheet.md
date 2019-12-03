@@ -3,6 +3,14 @@
 ### Open file inside Vim
 `:e /path/to/file`
 
+## Plugins
+
+### Open NERDTree
+`<Ctrl>+n` 
+
+### Open FZF
+`<Ctrl>+p`
+
 # Windows (Panes)
 `<Ctrl>+w`
 
