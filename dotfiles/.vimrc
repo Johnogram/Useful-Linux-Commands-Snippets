@@ -14,9 +14,8 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'sjl/badwolf'
+Plug 'ervandew/supertab'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'itchyny/lightline.vim'
 Plug 'editorconfig/editorconfig-vim'
 
 " Files & Buffers
@@ -28,6 +27,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " UI / Styling
 "-----------
+Plug 'itchyny/lightline.vim'
+Plug 'sjl/badwolf'
 Plug 'tomasr/molokai'
 
 " End vim-plug
@@ -36,6 +37,15 @@ call plug#end()
 """"""""""""
 "  CONFIG  "
 """"""""""""
+
+" if hidden is not set, TextEdit might fail.
+set hidden
+
+" Better display for messages
+set cmdheight=1
+
+" You will have bad experience for diagnostic messages when it's default 4000.
+set updatetime=300
 
 " Indentation
 "-------------
