@@ -4,8 +4,19 @@
 `:e /path/to/file`
 
 # Windows (Panes)
+`<Ctrl>+w`
+
+### Switch Window
+`<Ctrl>+w <direction arrow>`
+
+### Close Window
+`<Ctrl>+w q`
 
 # Tabs
+`<Ctrl>+t`
+
+### Switch Window
+`<Ctrl>+t <direction arrow>`
 
 # Editing
 
