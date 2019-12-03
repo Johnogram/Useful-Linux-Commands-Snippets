@@ -1,9 +1,9 @@
 " Disable Vi compatibility to enable more powerful vim features
 set nocompatible
 
-""""""""""""
+""""""""""""""
 "  VIM-PLUG  "
-""""""""""""
+""""""""""""""
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -17,9 +17,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sjl/badwolf'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 
+" Files & Buffers
+"-----------------
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " UI / Styling
 "-----------
@@ -82,3 +87,14 @@ set colorcolumn=120
 " Other
 "--------------
 set spell spelllang=en_gb
+
+""""""""""""""
+"  BINDINGS  "
+""""""""""""""
+map <C-t><up> :tabr<cr>
+map <C-t><down> :tabl<cr>
+map <C-t><left> :tabp<cr>
+map <C-t><right> :tabn<cr>
+
+map <C-n> :NERDTreeToggle<cr>
+map <C-p> :FZF<cr>
