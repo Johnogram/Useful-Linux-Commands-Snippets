@@ -25,8 +25,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" Coding
+" -------
+Plug 'majutsushi/tagbar'
+
 " UI / Styling
-"-----------
+"--------------
 Plug 'itchyny/lightline.vim'
 Plug 'sjl/badwolf'
 Plug 'tomasr/molokai'
@@ -46,6 +50,9 @@ set cmdheight=1
 
 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
+
+set encoding=utf8
+set nowrap
 
 " Indentation
 "-------------
@@ -94,6 +101,11 @@ set cursorline
 highlight ColorColumn ctermbg=DarkGrey
 set colorcolumn=120
 
+" Devicons configuration
+" ----------------------
+let g:webdevicons_conceal_nerdtree_brackets = 1
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
+
 " Other
 "--------------
 set spell spelllang=en_gb
@@ -107,4 +119,5 @@ map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 
 map <C-n> :NERDTreeToggle<cr>
-map <C-p> :FZF<cr>
+map <C-m> :TagbarToggle<CR>
+"map <C-p> :FZF<cr>
