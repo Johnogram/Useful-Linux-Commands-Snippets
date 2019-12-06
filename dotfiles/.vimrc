@@ -51,7 +51,8 @@ Plug 'stephpy/vim-php-cs-fixer'
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 Plug 'sjl/badwolf'
-Plug 'tomasr/molokai'
+"Plug 'tomasr/molokai'
+Plug 'morhetz/gruvbox'
 
 " End vim-plug
 call plug#end()
@@ -138,10 +139,12 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
 
 " Use molokai colorscheme
-if (!empty(glob("~/.vim/plugged/molokai")))
-    let g:molokai_original=1
-    colorscheme molokai
-endif
+"if (!empty(glob("~/.vim/plugged/molokai")))
+"    let g:molokai_original=1
+"    colorscheme molokai
+"endif
+colorscheme gruvbox
+set background=dark    " Setting dark mode
 
 " Automatically change the screen title
 set title
