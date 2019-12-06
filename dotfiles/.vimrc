@@ -49,6 +49,7 @@ Plug 'stephpy/vim-php-cs-fixer'
 " UI / Styling
 "--------------
 Plug 'itchyny/lightline.vim'
+Plug 'maximbaz/lightline-ale'
 Plug 'sjl/badwolf'
 Plug 'tomasr/molokai'
 
@@ -58,6 +59,8 @@ call plug#end()
 """"""""""""
 "  CONFIG  "
 """"""""""""
+
+set mouse=a
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -123,6 +126,8 @@ let g:ale_echo_msg_format = '[%linter%] %s'
 let g:ale_sign_error = '😠'
 let g:ale_sign_warning = '😒'
 
+let g:ale_set_balloons = 1
+
 " UI / styling
 "--------------
 
@@ -156,15 +161,50 @@ set colorcolumn=120
 
 " Status Line
 let g:lightline = {
-    \ 'colorscheme': 'wombat',
-    \ 'active': {
-    \   'left': [ [ 'mode', 'paste' ],
-    \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-    \ },
-    \ 'component_function': {
-    \   'gitbranch': 'fugitive#head'
-    \ },
-    \ }
+	\	'colorscheme': 'wombat',
+	\	'active': {
+	\ 		'left': [
+	\			[ 'mode', 'paste' ],
+	\			[ 'readonly', 'filename', 'modified' ],
+	\			[ 'fugitive']
+	\		],
+	\ 		'right': [
+	\			[ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ],
+	\			[ 'lineinfo' ],
+	\           [ 'percent' ],
+	\           [ 'fileformat', 'fileencoding', 'filetype' ]
+	\		]
+	\	},
+	\	'tabline': {
+	\		'left': [ [ 'tabs' ] ],
+	\		'right': [ [ 'close' ] ]
+	\	},
+	\	'tab': {
+	\		'active': [ 'filename', 'modified' ],
+	\		'inactive': [ 'filename', 'modified' ]
+	\	},
+	\	'component': {
+	\		'lineinfo': ' %3l:%-2v',
+	\	},
+	\ 	'component_function': {
+	\		'readonly': 'LightlineReadonly',
+	\		'fugitive': 'LightlineFugitive'
+	\	},
+	\	'component_expand': {
+	\		'linter_checking': 'lightline#ale#checking',
+	\		'linter_warnings': 'lightline#ale#warnings',
+	\		'linter_errors': 'lightline#ale#errors',
+	\		'linter_ok': 'lightline#ale#ok',
+	\ 	},
+	\	'component_type': {
+	\		'linter_checking': 'left',
+	\		'linter_warnings': 'warning',
+	\		'linter_errors': 'error',
+	\		'linter_ok': 'left',
+	\	},
+	\	'separator': { 'left': "\ue0b0", 'right': "\ue0b2" },
+	\	'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3" }
+	\ }
 
 " Devicons configuration
 " ----------------------
@@ -205,4 +245,16 @@ function! Preserve(command)
     " Clean up: restore previous search history, and cursor position
     let @/=_s
     call cursor(l, c)
+endfunction
+
+function! LightlineReadonly()
+	return &readonly ? '' : ''
+endfunction
+
+function! LightlineFugitive()
+	if exists('*fugitive#head')
+		let branch = fugitive#head()
+		return branch !=# '' ? ''.branch : ''
+	endif
+	return ''
 endfunction
