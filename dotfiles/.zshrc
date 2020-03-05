@@ -101,6 +101,12 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# If the $term variable is xterm, change it to 256 colors!
+if [ "$TERM" = "xterm" ]; then
+    # No it isn't, it's gnome-terminal
+    export TERM="xterm-256color"
+fi
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -118,8 +124,6 @@ export VISUAL=vim
 export EDITOR=vim
 export GIT_EDITOR=vim
 
-# Aliases
-alias git_master_diff="git diff --name-status master"
 fpath=($fpath "/home/johnogram/.zfunctions")
 
 # Set Spaceship ZSH as a prompt
@@ -127,4 +131,23 @@ autoload -U promptinit; promptinit
 prompt spaceship
 
 # PHPCS
-export PATH=/home/johnogram/.composer/vendor/bin:$PATH
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+#WILMA
+export WILMA_VP_ROOT="$HOME/Documents/Code/victoriaplum/victoriaplum.com"
+export PATH="$PATH:$HOME/.bin"
+
+# PHPSTORM
+export PATH="$PATH:$HOME/Apps/PHPStorm/bin"
+
+# GO
+export GOROOT="/usr/local/go"
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
+
+# Aliases
+alias git_master_diff="git diff --name-status master"
+alias docker_kill="docker kill $(docker ps -q)"
+alias docker_purge="docker rm $(docker ps -a -q)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
