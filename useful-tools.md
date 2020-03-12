@@ -48,6 +48,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/tmux/tmux.git
 cd tmux
 sh autogen.sh
+sudo apt install libevent-dev
+sudo apt install ncurses-dev
 ./configure && make
 ```
 
