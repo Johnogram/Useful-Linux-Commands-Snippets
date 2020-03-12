@@ -1,0 +1,9 @@
+{
+  "label": "Test VP",
+  "host": "localhost",
+  "user": "victoriaplum",
+  "port": 9992,
+  "ssl": false,
+  "database": "test_victoriaplum",
+  "password": "herpaderp"
+}
