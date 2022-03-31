@@ -1,0 +1,7 @@
+{
+  "Pretty Console Output": {
+		"prefix": "log",
+		"body": "console.dir($1, { depth: null });",
+		"description": "Log pretty output to console"
+	}
+}
